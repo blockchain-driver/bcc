@@ -5,7 +5,7 @@
 
 	<groupId>bcc</groupId>
 	<artifactId>bcc.spring-boot-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>bcc.spring-boot-app</name>
@@ -22,12 +22,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<blockchain-driver.version>0.1.0</blockchain-driver.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
@@ -35,6 +36,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>bcc</groupId>
+			<artifactId>blockchain</artifactId>
+			<version>${blockchain-driver.version}</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>

@@ -5,9 +5,10 @@
 	<parent>
 		<groupId>bcc</groupId>
 		<artifactId>bcc.root</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<version>0.1.0</version>
 	</parent>
 	<artifactId>app</artifactId>
+	<version>0.1.0</version>
 
 	<dependencies>
 		<dependency>

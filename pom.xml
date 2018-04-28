@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>bcc</groupId>
 	<artifactId>bcc.root</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -12,13 +12,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.7</java.version>
 	</properties>
-
-
-
-	<modules>
-		<module>blockchain</module>
-		<module>app</module>
-	</modules>
+	
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -31,8 +25,13 @@
 				<artifactId>slf4j-api</artifactId>
 				<version>1.7.25</version>
 			</dependency>
-
 		</dependencies>
 	</dependencyManagement>
+
+	<modules>
+		<module>blockchain</module>
+		<module>app</module>
+	</modules>
+
 </project>
 
