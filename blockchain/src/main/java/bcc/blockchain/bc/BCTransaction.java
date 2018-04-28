@@ -1,7 +1,9 @@
 package bcc.blockchain.bc;
 
 /**
- * Transaction in any blockchain in line in ledger:
+ * General blockchain transaction.
+ * 
+ * Transaction in any blockchain is a line in ledger:
  * <code>from</code> some account, <code>to</code> some account, and what <code>value</code>
  *
  */

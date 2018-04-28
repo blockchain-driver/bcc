@@ -33,7 +33,7 @@ public class EthResponse {
 	}
 	@Override
 	public String toString() {
-		return "BCResponse [jsonrpc=" + jsonrpc + ", id=" + id + ", result=" + result + ", error=" + error + "]";
+		return "EthResponse [jsonrpc=" + jsonrpc + ", id=" + id + ", result=" + result + ", error=" + error + "]";
 	}
 	
 	

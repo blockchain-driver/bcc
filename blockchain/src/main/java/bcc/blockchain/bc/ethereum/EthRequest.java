@@ -48,6 +48,6 @@ public class EthRequest {
 
 	@Override
 	public String toString() {
-		return "BCRequest [jsonrpc=" + jsonrpc + ", method=" + method + ", params=" + params + ", id=" + id + "]";
+		return "EthRequest [jsonrpc=" + jsonrpc + ", method=" + method + ", params=" + params + ", id=" + id + "]";
 	}
 }

@@ -9,7 +9,6 @@ public class EthError {
 		message = "";
 	}
 	
-	
 	public Integer getCode() {
 		return code;
 	}
@@ -23,10 +22,9 @@ public class EthError {
 		this.message = message;
 	}
 	
-	
 	@Override
 	public String toString() {
-	return "BCError{ code=" + code + ", message="+message + "}";
+		return "EthError {code=" + code + ", message=" + message + "}";
 	}
 	
 }
